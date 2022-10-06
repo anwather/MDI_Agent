@@ -1,5 +1,8 @@
 # Instructions
 
+**Prereqs**
+- You must execute the code below in PowerShell 7 as it is the only version which support the GuestConfiguration module ;)
+
 1. Download the Microsoft Defender for Identity package and get the key
 2. Upload the package to a storage account - generate a read only SAS token for this
 3. Use the code below to upload the configuration zip file to a storage account (can be the same one in the same container)
